@@ -5,22 +5,23 @@
 
 }
 body{
-    background-color: darkolivegreen;
+    background-color: #1b2d18;
 }
 
 .wrap{
- position: absolute;
- top: 50%;
- left: 50%;
- transform: translate(-50%,-50%);
- color: aquamarine;
- text-align: center;
+    margin-top: 120px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: aquamarine;
+    text-align: center;
 
 }
 .material-icons{
-font-size: 10rem;
-font-weight: bold;
-margin-bottom: 10px ;
+    font-size: 10rem;
+    font-weight: bold;
+    margin-bottom: 10px ;
 
 }
 .lg-text{
@@ -38,12 +39,38 @@ margin-bottom: 10px ;
     font-size: 2rem;
     font-weight: bold;
     margin-bottom: 8px ;
-}  .Cm-text{
-    font-size: 2rem;
-    font-weight: bold;
-    margin-bottom: 8px ;
-}  .Em-text{
-    font-size: 2rem;
-    font-weight: bold;
-    margin-bottom: 8px ; }
-            
+}
+.Cm-text{
+       font-size: 2rem;
+       font-weight: bold;
+       margin-bottom: 8px ;
+}
+.Em-text{
+          font-size: 2rem;
+          font-weight: bold;
+          margin-bottom: 8px ; }
+.container .nav-bar{
+    width: 100%;
+}
+
+.container .header{
+    width: 80%;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    align-items: center;
+}
+.container .nav ul li{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.container .nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.container .nav ul li a:hover{
+    text-blink: green;
+}

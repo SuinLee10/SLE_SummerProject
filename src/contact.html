@@ -3,51 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <title>이미지 갤러리</title>
-    <style>
-        body {
-            background-color: #e0f8d8; /* 옅은 연두색 배경 */
-        }
-        .image-container {
-            display: flex; /* 이미지를 가로로 나란히 배치 */
-            justify-content: center; /* 중앙 정렬 */
-            align-items: center; /* 세로 중앙 정렬 */
-            flex-wrap: wrap; /* 필요한 경우 줄 바꿈 */
-        }
-        .image-box {
-            margin: 10px; /* 이미지 박스 주변 여백 */
-            text-align: center; /* 텍스트 중앙 정렬 */
-        }
-        img {
-            width: 300px; /* 모든 이미지의 너비를 300px로 설정 */
-            height: auto; /* 비율 유지 */
-        }
-        .caption {
-            margin-top: 5px; /* 캡션과 이미지 사이의 간격 */
-            font-size: 16px; /* 폰트 크기 */
-        }
-        .header {
-            text-align: center; /* 제목 텍스트 중앙 정렬 */
-            font-size: 48px; /* 제목 폰트 크기, 더 크게 조정 */
-            font-family: 'Gungsuh', '궁서'; /* 폰트 궁서체 설정 */
-            margin-bottom: 20px; /* 제목과 이미지 사이의 간격 */
-        }
-    </style>
+    <link href = "style_contact.css" rel="stylesheet">
 </head>
 <body>
-    <div class="header">SLE 2NE1 Members</div>
+<div class = "container">
+        <div class="nav-bar">
+            <div class="header">
+                <div class="nav">
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="content.html">CONTENT</a></li>
+                        <li><a href="plan.html">PLAN</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                        <li><a href="Reference.html">REFERENCE</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class ="head">SLE 2NE1 Members</div>
     <div class="image-container">
         <div class="image-box">
             <img src="image/HaeseokPark.jpg" alt="해석 박">
+            <div class = "overlay">
             <div class="caption">21학번 박해석</div>
+            </div>
         </div>
         <div class="image-box">
             <img src="image/Yohan.jpg" alt="요한">
+            <div class = "overlay">
             <div class="caption">21학번 김요한</div>
+            </div>
         </div>
         <div class="image-box">
             <img src="image/Suin.jpg" alt="수인">
-            <div class="caption">21학번 수인</div>
+            <div class = "overlay">
+            <div class="caption">21학번 이수인</div>
+            </div>
         </div>
     </div>
+</div>
 </body>
 </html>

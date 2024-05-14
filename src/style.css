@@ -14,6 +14,9 @@ img{
     height: auto;
     box-shadow: #00ff0f;
 }
+.plan{
+    text-align: center;
+}
 .slegi{
     position: absolute;
     align-items: center;
@@ -84,7 +87,10 @@ body{
 .container .nav-bar{
     width: 100%;
 }
-
+.plan{
+    color:white;
+    font-size: 2rem;
+}
 .container .header{
     width: 80%;
     height: 80px;

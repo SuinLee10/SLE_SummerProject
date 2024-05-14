@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="61dd7f70-2038-4c17-9b5a-c598e6c4b08e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/image/Suin.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/plan.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/plan.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/content.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/image/Balance.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style1.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style1.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style_contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style_contact.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +35,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "Merging master",
+    "git-widget-placeholder": "master",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -41,6 +44,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/image" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -49,7 +57,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1715598753175</updated>
-      <workItem from="1715598754417" duration="3582000" />
+      <workItem from="1715598754417" duration="15967000" />
     </task>
     <servers />
   </component>

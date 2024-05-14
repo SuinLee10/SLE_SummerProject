@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'HSSanTokki20-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2405@1.0/HSSanTokki20-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #1b2d18;
+}
+.image-container {
+    display: flex; /* 이미지를 가로로 나란히 배치 */
+    justify-content: center; /* 중앙 정렬 */
+    align-items: center; /* 세로 중앙 정렬 */
+}
+.image-box {
+    margin: 20px; /* 이미지 박스 주변 여백 */
+    text-align: center; /* 텍스트 중앙 정렬 */
+}
+img {
+    width: 200px; /* 모든 이미지의 너비를 300px로 설정 */
+    height: auto; /* 비율 유지 */
+    border-radius: 30%;
+}
+.caption {
+    margin-top: 5px; /* 캡션과 이미지 사이의 간격 */
+    font-size: 16px; /* 폰트 크기 */
+    font-family: 'HSSanTokki20-Regular';
+    color: white;
+}
+.head {
+    color : white;
+    text-align: center; /* 제목 텍스트 중앙 정렬 */
+    font-size: 48px; /* 제목 폰트 크기, 더 크게 조정 */
+    font-family: 'HSSanTokki20-Regular'; /* 폰트 궁서체 설정 */
+    margin-bottom: 20px; /* 제목과 이미지 사이의 간격 */
+}
+
+.container .nav-bar{
+    width: 100%;
+}
+.image-box{
+    box-shadow: white;
+}
+
+.container .header{
+    width: 80%;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    align-items: center;
+}
+.container .nav ul li{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.container .nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.container .nav ul li a:hover{
+    text-blink: green;
+}
